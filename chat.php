@@ -29,6 +29,7 @@
  
  
 </body>
+ 
 <section>
         <?php // DBからデータ(投稿内容)を取得 $stmt = select(); foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $message) {
                 // 投稿内容を表示
